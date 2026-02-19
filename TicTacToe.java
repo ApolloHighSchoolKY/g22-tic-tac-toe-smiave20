@@ -56,15 +56,15 @@ public class TicTacToe
 		}
 
 		//Diagonal Winner, down right
-		if(mat[0][0].equals(mat[1][1]) && mat[1][1].equals(mat[2][2]) && !mat[0][0].equal(" "))
+		if(mat[0][0].equals(mat[1][1]) && mat[1][1].equals(mat[2][2]) && !mat[0][0].equals(" "))
 			if(mat[1][1].equlas("X"))
 				return "X wins diagonally!";
 			else
 				return "O wins diagnally!";
 
 		//Diagonal Winner, down left
-		if(mat[0][2].equals(mat[1][1]) && mat[1][1].equals(mat[2][0]) && !mat[0][2].equal(" "))
-			if(mat[1][1].equlas("X"))
+		if(mat[0][2].equals(mat[1][1]) && mat[1][1].equals(mat[2][0]) && !mat[0][2].equals(" "))
+			if(mat[1][1].equals("X"))
 				return "X wins diagonally!";
 			else
 				return "O wins diagnally!";
